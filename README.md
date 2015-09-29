@@ -28,7 +28,7 @@ The special handling of proximity queries for points on the edge of a Geohash bo
 
 ### Resources 
 
-http://openlocation.org/geohash/geohash-js/
-http://universimmedia.pagesperso-orange.fr/geo/loc.htm
-http://boundingbox.klokantech.com/
-http://geohash.org/site/tips.html#naming
+- [http://openlocation.org/geohash/geohash-js/](http://openlocation.org/geohash/geohash-js/)
+- [http://universimmedia.pagesperso-orange.fr/geo/loc.htm](http://universimmedia.pagesperso-orange.fr/geo/loc.htm)
+- [http://boundingbox.klokantech.com/](http://boundingbox.klokantech.com/)
+- [http://geohash.org/site/tips.html#naming](http://geohash.org/site/tips.html#naming)
