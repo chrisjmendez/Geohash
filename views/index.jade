@@ -1,0 +1,20 @@
+extends layout
+
+block javascripts
+    script.
+      var loadMap = function(){
+        var myLatlng = new google.maps.LatLng( #{lat}, #{lng});
+        var myOptions = {
+          zoom: #{zoom},
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(  document.getElementById("map"), myOptions  );
+      };
+      window.onload = loadMap;
+
+block content
+
+  h1 GeoHash: #{geohash}
+
+  #map(style="width: 500px; height: 500px")
